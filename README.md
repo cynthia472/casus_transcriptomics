@@ -30,10 +30,23 @@ De kwantisering van genexpressie werd uitgevoerd met featureCounts (Subread v2.0
 
 Ten slotte werd functionele verrijking uitgevoerd met clusterProfiler (v4.8), gericht op Gene Ontology (GO)-termen en KEGG-pathways. Genannotatie werd opgehaald via org.Hs.eg.db (v3.18).
 
+# Resultaten
+Er is in dit onderzoek gekeken naar RA, waarbij meerdere analyses zijn uitgevoerd. Er is gekeken naar de differentiële genexpressie, KEGG-patwayanalyse en de GO-termverrijking. 
+De volcano plot laat zien welke genen significant andere tot expressie kwamen bij RA. Hierbij zijn de genen zowel statistisch als biologisch relevant zijn weergegeven in het rood. Genen met een hoge expressie zijn ANKRD30BL, BCL2A1, COL6A5, CXCR1, IGKV1-39, PTGFR. Er werden in totoaal 29.407 genen geanaylseerd, waarvan een groot deel differentieel tot expressie is gebracht. 
+
+De pathway analyse toont de betrokken genen binnen het RA-pathway. De kleuren geven de mate van de expressieverandering weer. rood is de opregulatie en groen de downregulatie. De opvallende genen binnen dit pathway zijn Opgereguleerd: IL6, IL1B, TNF, RANKL, MMP9, IFNG, CD28, CD80, CTLA4 en neerwaarts gereguleerd: TGFβ, IL4, IL23
+
+De GO verrijkingsanalyse toont aan de genen die differentieel tot expressie komen significant betrokken zijn bij de biologische processien die verband houden met het immuunsysteem. De top Go-termen (FDR < 0.05). 
 
 
-# resultaten
+# conclusie
+Uit de anaylse is gebleken dat RA gepaard gaat met een verstoring van immuun en ontstekingsroutes. De KEGG-pathway toont opregulatie van centrale cytokinen, als Il6, TNF, iL1B en IFNG. Dit duidt op een versterkte ontsteking binnen het synoviale weefsel. Dit wordt ondersteund met de volcano plot, waarin meerdere genen met een rol in apoptose. De GO-termverrijking laat verder zien dat termen als immune response, immunoglobulin complex en antigen binding sterk verrijkt zijn, wat wijst op actieve betrokkenheid van zowel het adaptieve als aangeboren immuunsysteem.
+Deze resultaten sluiten aan bij bestaand onderzoek dat aantoont dat RA sterk wordt gekenmerkt door cytokine-afhankelijke ontsteking en autoantilichaamvorming (McInnes & Schett, 2011; Smolen et al., 2016).
+
+Aanbeveling
+Op basis van de gevonden resultaten zou het bij een vervolgonderzoek beter zijn om de groepen uit te breiden, meer controles en meer met RA. Ook is het interessant om te gaan kijken naar het verschil tussen man en vrouw, en hoe de genen zich zouden reguleren bij een patiënt die korter als 12 maanden gediagnosticeerd is met RA. Voor een vervolgonderzoek zou dit tot nieuwe inzichten leiden. 
 
 
-De gebruikte scripts bevinden zich in de map /scripts, zijn modulair opgebouwd en voorzien van duidelijke documentatie. De gehele pipeline is tevens visueel weergegeven als stroomschema in figures/pipeline.svg.
+
+
 
