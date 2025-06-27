@@ -1,2 +1,3 @@
-https://github.com/cynthia472/casus_transcriptomics/commit/2940bb2fd160d32239fa70254e3c17d348fcb0bf#commitcomment-160972863
-
+git add assests/flowschema.png
+git commit -m "Voeg flowschema afbeelding toe aan assests"
+git push
