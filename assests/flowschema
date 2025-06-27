@@ -1,1 +1,16 @@
+git clone https://github.com/cynthia472/casus_transcriptomics.git
+cd casus_transcriptomics
+Verwijder het bestand:
 
+bash
+Copy
+Edit
+rm assets/flowschema
+Voeg de wijziging toe aan Git:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Verwijder flowschema bestand"
+git push origin main
