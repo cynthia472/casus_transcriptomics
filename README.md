@@ -42,7 +42,7 @@ De GO verrijkingsanalyse toont aan de genen die differentieel tot expressie kome
 # conclusie
 Uit de anaylse is gebleken dat RA gepaard gaat met een verstoring van immuun en ontstekingsroutes. De KEGG-pathway toont opregulatie van centrale cytokinen, als Il6, TNF, iL1B en IFNG. Dit duidt op een versterkte ontsteking binnen het synoviale weefsel. Dit wordt ondersteund met de volcano plot, waarin meerdere genen met een rol in apoptose. De GO-termverrijking laat verder zien dat termen als immune response, immunoglobulin complex en antigen binding sterk verrijkt zijn, wat wijst op actieve betrokkenheid van zowel het adaptieve als aangeboren immuunsysteem.
 Deze resultaten sluiten aan bij bestaand onderzoek dat aantoont dat RA sterk wordt gekenmerkt door cytokine-afhankelijke ontsteking en autoantilichaamvorming (McInnes & Schett, 2011; Smolen et al., 2016).
-
+ 
 Aanbeveling
 Op basis van de gevonden resultaten zou het bij een vervolgonderzoek beter zijn om de groepen uit te breiden, meer controles en meer met RA. Ook is het interessant om te gaan kijken naar het verschil tussen man en vrouw, en hoe de genen zich zouden reguleren bij een patiënt die korter als 12 maanden gediagnosticeerd is met RA. Voor een vervolgonderzoek zou dit tot nieuwe inzichten leiden. 
 
