@@ -13,13 +13,10 @@ data_stewardship/ - files om de competentie beheren aan te tonen
 
 
 # Inleiding
-Reumatoïde artritis(RA) is een chronische auto-immuunziekte, die zich kenmerkt door door ontsteking van het synovium in gewrichten. Dit leidt vaak tot gewrichtsschade, functieverlies of een vermindere kwaliteit van leven . 
-
-Reumatoïde Artritis (RA) is een chronische auto-immuunziekte waarbij het immuunsysteem lichaamseigen weefsels aanvalt. Een belangrijk kenmerk van RA is synovitis, een ontsteking van het gewrichtsslijmvlies, wat leidt tot gewrichtsschade. De precieze oorzaak is nog onbekend, maar genetische aanleg, omgevingsfactoren en een ontspoord immuunsysteem spelen waarschijnlijk een rol.
-
+Reumatoide artritis(RA) is een chronische auto-immuunziekte, die zich kenmerkt door door ontsteking van het synovium in gewrichten. Dit leidt vaak tot gewrichtsschade, functieverlies of een vermindere kwaliteit van leven **bron**. RA komt wereldwijd voor bij ongeveer 0.24 - 1% van de bevolking **bron** en komt 2-3 keer zo vaak voor bij vrouwen als bij mannen **bron**. Het wordt veroorzaakt door een combinatie van omgevingsfactoren, genetica en immuunreacties **bron**. 
 Een vroege diagnose is belangrijk om onomkeerbare gewrichtsschade te voorkomen. Door de aanwezigheid van klinische symptonen en aanwezigheid van autoanistoffen, zoals ACPA (anti-CCP), dat aanwezig is bij RA-patiënten. Er bestaat geen genezing voor RA, maar het ziekteproces kan worden afgeremd met medicatie.
 
-Transcriptomics, het analyseren van genexpressie, kan inzicht geven in de onderliggende biologische processen van RA. In dit onderzoek worden RNA-seq-data van synoviumbiopten geanalyseerd van vier RA-patiënten (ACPA-positief, diagnose >12 maanden) en vier controlepersonen (ACPA-negatief). De dataset is afkomstig uit een eerder onderzoek van Platzer et al. (2019). Met behulp van R-software wordt onderzocht welke genen significant anders tot expressie komen bij RA, wat kan bijdragen aan een beter begrip van het ziektemechanisme en mogelijk nieuwe aanknopingspunten voor behandeling oplevert.
+NOG>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Transcriptomics, het analyseren van genexpressie, kan inzicht geven in de onderliggende biologische processen van RA. In dit onderzoek worden RNA-seq-data van synoviumbiopten geanalyseerd van vier RA-patiënten (ACPA-positief, diagnose >12 maanden) en vier controlepersonen (ACPA-negatief). De dataset is afkomstig uit een eerder onderzoek van Platzer et al. (2019). Met behulp van R-software wordt onderzocht welke genen significant anders tot expressie komen bij RA, wat kan bijdragen aan een beter begrip van het ziektemechanisme en mogelijk nieuwe aanknopingspunten voor behandeling oplevert.
 
 De hoofdvraag van het onderzoek is: Welke genen en biologische pathways zijn verschillend tot expressie gebracht in het synovium van personen met reumatoïde artritis in vergelijking met gezonde controlepersonen?
 
@@ -31,6 +28,8 @@ De workflow omvat zes opeenvolgende stappen. als eerste werd de kwaliteit van de
 De kwantisering van genexpressie werd uitgevoerd met featureCounts (Subread v2.0.3), waarmee het aantal reads per gen werd bepaald. Voor de differentiële genexpressie-analyse is gebruikgemaakt van het R-pakket DESeq2 (v1.40). Genen werden als significant beschouwd bij een adjusted p-waarde < 0,05 en |log₂ fold change| > 1.
 
 Ten slotte werd functionele verrijking uitgevoerd met clusterProfiler (v4.8), gericht op Gene Ontology (GO)-termen en KEGG-pathways. Genannotatie werd opgehaald via org.Hs.eg.db (v3.18).
+
+
 
 # Resultaten
 Er is in dit onderzoek gekeken naar RA, waarbij meerdere analyses zijn uitgevoerd. Er is gekeken naar de differentiële genexpressie, KEGG-patwayanalyse en de GO-termverrijking. 
