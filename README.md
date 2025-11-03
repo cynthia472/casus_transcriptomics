@@ -29,7 +29,8 @@ De kwantisering van genexpressie werd uitgevoerd met featureCounts (Subread v2.0
 
 Ten slotte werd functionele verrijking uitgevoerd met clusterProfiler (v4.8), gericht op Gene Ontology (GO)-termen en KEGG-pathways. Genannotatie werd opgehaald via org.Hs.eg.db (v3.18).
 
-
+<img width="1403" height="738" alt="image" src="https://github.com/user-attachments/assets/d86e36f1-b75e-4eed-8970-8226800d6c73" />
+figuur 1: Flowchart van het verwerken van de data in R
 
 # Resultaten
 Er is in dit onderzoek gekeken naar RA, waarbij meerdere analyses zijn uitgevoerd. Er is gekeken naar de differentiële genexpressie, KEGG-patwayanalyse en de GO-termverrijking. 
