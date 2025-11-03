@@ -1,19 +1,21 @@
 # Transcriptomics Analyse van Reumatoïde Artritis (RA)
-Welkom op deze GitHub-repository, waarin een complete RNA-seq analyse wordt uitgevoerd op synoviumbioplten van patiënten met Reumatoïde Artriis en gezonde controles. waarin een complete RNA-seq analyse wordt uitgevoerd op synoviumbiopten van patiënten met Reumatoïde Artritis (RA) en gezonde controles. Deze analyse richt zich op het identificeren van differentieel tot expressie gebrachte genen en betrokken biologische pathways.
+Welkom op deze GitHub-repository, waarin een complete RNA-seq analyse wordt uitgevoerd op synoviumbioplten van patiënten met Reumatoïde Artritis (RA) en gezonde controles. Deze analyse richt zich op het identificeren van differentieel tot expressie gebrachte genen (DEGs) en de betrokken biologische pathways.
 
 # Inhoud/structuur
-data/raw/ - onbewerkte data van Reumatoïde Artritis en controle 
+data/raw/ - originele dataset 
+data/ - verwerkte data die gebruikt is
 scripts/ - om het onderzoek reproduceerbaar te maken
-resultaten/ - grafieken en tabellen 
-bronnen? - de gebruikte bronnen 
-README.md - document om de teks in github te genereren 
+figuren/ - grafieken en tabellen 
+bronnen/ - de gebruikte bronnen 
+README.md - het verslag
 assets/ - overige documenten
-data_stewardship - Om de competentie beheren aan te tonen
+data_stewardship/ - files om de competentie beheren aan te tonen
 
 
-# aanleiding
+# Inleiding
+Reumatoïde artritis(RA) is een chronische auto-immuunziekte, die zich kenmerkt door door ontsteking van het synovium in gewrichten. Dit leidt vaak tot gewrichtsschade, functieverlies of een vermindere kwaliteit van leven . 
 
-Reumatoïde Artritis (RA) is een systemische auto-immuunziekte waarbij het immuunsysteem lichaamseigen weefsels aanvalt. Een belangrijk kenmerk van RA is synovitis, een ontsteking van het gewrichtsslijmvlies, wat leidt tot gewrichtsschade. De precieze oorzaak is nog onbekend, maar genetische aanleg, omgevingsfactoren en een ontspoord immuunsysteem spelen waarschijnlijk een rol.
+Reumatoïde Artritis (RA) is een chronische auto-immuunziekte waarbij het immuunsysteem lichaamseigen weefsels aanvalt. Een belangrijk kenmerk van RA is synovitis, een ontsteking van het gewrichtsslijmvlies, wat leidt tot gewrichtsschade. De precieze oorzaak is nog onbekend, maar genetische aanleg, omgevingsfactoren en een ontspoord immuunsysteem spelen waarschijnlijk een rol.
 
 Een vroege diagnose is belangrijk om onomkeerbare gewrichtsschade te voorkomen. Door de aanwezigheid van klinische symptonen en aanwezigheid van autoanistoffen, zoals ACPA (anti-CCP), dat aanwezig is bij RA-patiënten. Er bestaat geen genezing voor RA, maar het ziekteproces kan worden afgeremd met medicatie.
 
