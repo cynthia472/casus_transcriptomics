@@ -34,7 +34,10 @@ figuur 1: Flowchart van het verwerken van de data in R
 
 # Resultaten
 Er is in dit onderzoek gekeken naar RA, waarbij meerdere analyses zijn uitgevoerd. Er is gekeken naar de differentiële genexpressie, KEGG-patwayanalyse en de GO-termverrijking. 
-De volcano plot laat zien welke genen significant andere tot expressie kwamen bij RA. Hierbij zijn de genen zowel statistisch als biologisch relevant zijn weergegeven in het rood. Genen met een hoge expressie zijn ANKRD30BL, BCL2A1, COL6A5, CXCR1, IGKV1-39, PTGFR. Er werden in totoaal 29.407 genen geanaylseerd, waarvan een groot deel differentieel tot expressie is gebracht. 
+De volcano plot weergegeven in figuur 2 laat zien welke genen significant andere tot expressie kwamen bij RA. Hierbij zijn de genen zowel statistisch als biologisch relevant zijn weergegeven in het rood. Genen met een hoge expressie zijn ANKRD30BL, BCL2A1, COL6A5, CXCR1, IGKV1-39, PTGFR. Er werden in totoaal 29.407 genen geanaylseerd, waarvan een groot deel differentieel tot expressie is gebracht.
+
+<img width="1443" height="729" alt="image" src="https://github.com/user-attachments/assets/1ba9bfe5-aaf5-4bbd-aeeb-292d31626053" />
+Figuur 2: 
 
 De pathway analyse toont de betrokken genen binnen het RA-pathway. De kleuren geven de mate van de expressieverandering weer. rood is de opregulatie en groen de downregulatie. De opvallende genen binnen dit pathway zijn Opgereguleerd: IL6, IL1B, TNF, RANKL, MMP9, IFNG, CD28, CD80, CTLA4 en neerwaarts gereguleerd: TGFβ, IL4, IL23
 
