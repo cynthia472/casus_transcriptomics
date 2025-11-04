@@ -41,7 +41,8 @@ Figuur 2:
 
 De pathway analyse toont de betrokken genen binnen het RA-pathway. De kleuren geven de mate van de expressieverandering weer. rood is de opregulatie en groen de downregulatie. De opvallende genen binnen dit pathway zijn Opgereguleerd: IL6, IL1B, TNF, RANKL, MMP9, IFNG, CD28, CD80, CTLA4 en neerwaarts gereguleerd: TGFβ, IL4, IL23.
 
-
+<img width="1398" height="754" alt="image" src="https://github.com/user-attachments/assets/94941877-3c32-46af-b03a-19d19366bb88" />
+figuur 2:
 
 De GO verrijkingsanalyse toont aan de genen die differentieel tot expressie komen significant betrokken zijn bij de biologische processien die verband houden met het immuunsysteem. De top Go-termen (FDR < 0.05). 
 
