@@ -13,7 +13,7 @@ data_stewardship/ - files om de competentie beheren aan te tonen
 
 
 # Inleiding
-Reumatoide artritis(RA) is een chronische auto-immuunziekte, die zich kenmerkt door door ontsteking van het synovium in gewrichten. Dit leidt vaak tot gewrichtsschade, functieverlies of een vermindere kwaliteit van leven **bron**. RA komt wereldwijd voor bij ongeveer 0.24 - 1% van de bevolking **bron** en komt 2-3 keer zo vaak voor bij vrouwen als bij mannen **bron**. Het wordt veroorzaakt door een combinatie van omgevingsfactoren, genetica en immuunreacties **bron**. 
+Reumatoide artritis(RA) is een chronische auto-immuunziekte, die zich kenmerkt door door ontsteking van het synovium in gewrichten. Dit leidt vaak tot gewrichtsschade, functieverlies of een vermindere kwaliteit van leven [Tanaka, 2020](https://inflammregen.biomedcentral.com/articles/10.1186/s41232-020-00133-8) RA komt wereldwijd voor bij ongeveer 0.24 - 1% van de bevolking [Gabriel, 2001](https://pubmed.ncbi.nlm.nih.gov/11396092/) en komt 2-3 keer zo vaak voor bij vrouwen als bij mannen [Favalli et al., 2019](https://pubmed.ncbi.nlm.nih.gov/29372537/). Het wordt veroorzaakt door een combinatie van omgevingsfactoren, genetica en immuunreacties [Firestein en Mclness, 2017](https://pubmed.ncbi.nlm.nih.gov/28228278/). 
 Een vroege diagnose is belangrijk om onomkeerbare gewrichtsschade te voorkomen. Door de aanwezigheid van klinische symptonen en aanwezigheid van autoanistoffen, zoals ACPA (anti-CCP), dat aanwezig is bij RA-patiënten. Er bestaat geen genezing voor RA, maar het ziekteproces kan worden afgeremd met medicatie.
 
 NOG>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Transcriptomics, het analyseren van genexpressie, kan inzicht geven in de onderliggende biologische processen van RA. In dit onderzoek worden RNA-seq-data van synoviumbiopten geanalyseerd van vier RA-patiënten (ACPA-positief, diagnose >12 maanden) en vier controlepersonen (ACPA-negatief). De dataset is afkomstig uit een eerder onderzoek van Platzer et al. (2019). Met behulp van R-software wordt onderzocht welke genen significant anders tot expressie komen bij RA, wat kan bijdragen aan een beter begrip van het ziektemechanisme en mogelijk nieuwe aanknopingspunten voor behandeling oplevert.
@@ -21,7 +21,7 @@ NOG>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Transcriptomics, het analyseren van genexpress
 De hoofdvraag van het onderzoek is: Welke genen en biologische pathways zijn verschillend tot expressie gebracht in het synovium van personen met reumatoïde artritis in vergelijking met gezonde controlepersonen?
 
 # Methoden
-In dit onderzoek is een RNA‑seq‑analyse uitgevoerd op synoviaal weefsel van vier reumatoïde artritis (RA)‑patiënten en vier gezonde controles. De samples zijn verkregen met behulp van een synoviumbiopt: weefsel afkomstig uit gewrichtsslijmvlies. De volledige analyse is geautomatiseerd via een Nextflow-pipeline en gescript in R (versie 4.5.0). 
+In dit onderzoek is een RNA‑seq‑analyse uitgevoerd op synoviaal weefsel van vier reumatoïde artritis (RA)‑patiënten en vier gezonde controles. De samples zijn verkregen met behulp van een synoviumbiopt dit is weefsel afkomstig uit gewrichtsslijmvlies. De volledige analyse is geautomatiseerd via een Nextflow-pipeline en gescript in R (versie 4.5.0). 
 
 De workflow omvat zes opeenvolgende stappen. als eerste werd de kwaliteit van de ruwe FASTQ-bestanden beoordeeld met de FastQC (v0.11.9), samengevat met MultiQC (v1.14). Hierna volgde kwaliteits- en adaptertrimming. De opgeschoonde reads zijn vervolgens uitgelijnd op het humane referentiegenoom (GRCh38) met behulp van de 2-pass aligner (v2.7.11a).
 
@@ -44,10 +44,12 @@ De pathway analyse toont de betrokken genen binnen het RA-pathway. De kleuren ge
 <img width="1398" height="754" alt="image" src="https://github.com/user-attachments/assets/94941877-3c32-46af-b03a-19d19366bb88" />
 figuur 2:
 
+
 De GO verrijkingsanalyse toont aan de genen die differentieel tot expressie komen significant betrokken zijn bij de biologische processien die verband houden met het immuunsysteem. De top Go-termen (FDR < 0.05). 
 
 <img width="588" height="600" alt="image" src="https://github.com/user-attachments/assets/0778faef-f968-4d06-9221-666a056309bb" />
-figuur 3:
+
+figuur 3:   
 
 
 # conclusie
