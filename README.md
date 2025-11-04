@@ -1,15 +1,16 @@
 # Transcriptomics Analyse van Reumatoïde Artritis (RA)
 Welkom op deze GitHub-repository, waarin een complete RNA-seq analyse wordt uitgevoerd op synoviumbioplten van patiënten met Reumatoïde Artritis (RA) en gezonde controles. Deze analyse richt zich op het identificeren van differentieel tot expressie gebrachte genen (DEGs) en de betrokken biologische pathways.
 
-# Inhoud/structuur
-data/raw/ - originele dataset 
-data/ - verwerkte data die gebruikt is
-scripts/ - om het onderzoek reproduceerbaar te maken
-figuren/ - grafieken en tabellen 
-bronnen/ - de gebruikte bronnen 
-README.md - het verslag
-assets/ - overige documenten
-data_stewardship/ - files om de competentie beheren aan te tonen
+## 📁 Inhoud & Structuur
+
+**data/raw/**  - Originele dataset  
+**data/**  - Verwerkte data die gebruikt is  
+**scripts/** - Om het onderzoek reproduceerbaar te maken  
+**figuren/**  - Grafieken en tabellen  
+**bronnen/**  - De gebruikte bronnen  
+**README.md**  - Het verslag  
+**assets/**  - Overige documenten  
+**data_stewardship/**  - Files om de competentie *Beheren* aan te tonen
 
 
 # Inleiding
