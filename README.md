@@ -46,6 +46,9 @@ figuur 2:
 
 De GO verrijkingsanalyse toont aan de genen die differentieel tot expressie komen significant betrokken zijn bij de biologische processien die verband houden met het immuunsysteem. De top Go-termen (FDR < 0.05). 
 
+<img width="588" height="600" alt="image" src="https://github.com/user-attachments/assets/0778faef-f968-4d06-9221-666a056309bb" />
+figuur 3:
+
 
 # conclusie
 Uit de anaylse is gebleken dat RA gepaard gaat met een verstoring van immuun en ontstekingsroutes. De KEGG-pathway toont opregulatie van centrale cytokinen, als Il6, TNF, iL1B en IFNG. Dit duidt op een versterkte ontsteking binnen het synoviale weefsel. Dit wordt ondersteund met de volcano plot, waarin meerdere genen met een rol in apoptose. De GO-termverrijking laat verder zien dat termen als immune response, immunoglobulin complex en antigen binding sterk verrijkt zijn, wat wijst op actieve betrokkenheid van zowel het adaptieve als aangeboren immuunsysteem.
