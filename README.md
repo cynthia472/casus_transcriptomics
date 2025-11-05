@@ -40,6 +40,9 @@ De volcano plot weergegeven in figuur 2 laat zien welke genen significant andere
 <img width="1443" height="729" alt="image" src="https://github.com/user-attachments/assets/1ba9bfe5-aaf5-4bbd-aeeb-292d31626053" />
 Figuur 2: 
 
+![Volcano plot(./resultaten.volcano plot.png)
+![Volcano plot](./resultaten/volcano_plot.png)
+
 De pathway analyse toont de betrokken genen binnen het RA-pathway. De kleuren geven de mate van de expressieverandering weer. rood is de opregulatie en groen de downregulatie. De opvallende genen binnen dit pathway zijn Opgereguleerd: IL6, IL1B, TNF, RANKL, MMP9, IFNG, CD28, CD80, CTLA4 en neerwaarts gereguleerd: TGFβ, IL4, IL23.
 
 <img width="1398" height="754" alt="image" src="https://github.com/user-attachments/assets/94941877-3c32-46af-b03a-19d19366bb88" />
@@ -54,13 +57,13 @@ figuur 3:
 
 
 # conclusie
-Uit de anaylse is gebleken dat RA gepaard gaat met een verstoring van immuun en ontstekingsroutes. De KEGG-pathway toont opregulatie van centrale cytokinen, als Il6, TNF, iL1B en IFNG. Dit duidt op een versterkte ontsteking binnen het synoviale weefsel. Dit wordt ondersteund met de volcano plot, waarin meerdere genen met een rol in apoptose. De GO-termverrijking laat verder zien dat termen als immune response, immunoglobulin complex en antigen binding sterk verrijkt zijn, wat wijst op actieve betrokkenheid van zowel het adaptieve als aangeboren immuunsysteem.
-Deze resultaten sluiten aan bij bestaand onderzoek dat aantoont dat RA sterk wordt gekenmerkt door cytokine-afhankelijke ontsteking en autoantilichaamvorming (McInnes & Schett, 2011; Smolen et al., 2016).
+Er is een data analyse uitgevoerd in R om afwijkende expressie van genen en pathways te vinden bij patiënten met Reumatoide artritis. Uit de anaylse blijkt dat RA gepaard gaat met een verstoring van immuun en ontstekingsroutes in het synoviale weefsel. De KEGG-pathwayanalyse toont opregulatie van centrale cytokinen, waaronder Il6, TNF, iL1B en IFNG, wat wijst op een verhoogde ontstekingsactiviteit.  Dit wordt ondersteund door de genexpressieanalyse (volconao plot), waarim meerrdere genen betrokken bij apoptose significant tot expressie kwamen.
+
+De GO-termverrijkingsanalyse laat verder zien dat deze genen vooral betrokken zijn bij processen als immune response, immunoglobulin complex en antigen binding. Wat wijst op actieve betrokkenheid van zowel het adaptieve als aangeboren immuunsysteem.
+Deze bevindingen sluiten aan bij bestaand onderzoek dat aantoont dat RA sterk wordt gekenmerkt door cytokine-afhankelijke ontsteking en autoantilichaamvorming [McInnes & Schett, 2011](https://www.nejm.org/doi/abs/10.1056/NEJMra1004965); [Smolen et al., 2016](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30173-8/abstract).
  
 Aanbeveling
-Op basis van de gevonden resultaten zou het bij een vervolgonderzoek beter zijn om de groepen uit te breiden, meer controles en meer met RA. Ook is het interessant om te gaan kijken naar het verschil tussen man en vrouw, en hoe de genen zich zouden reguleren bij een patiënt die korter als 12 maanden gediagnosticeerd is met RA. Voor een vervolgonderzoek zou dit tot nieuwe inzichten leiden. 
-
-
+Voor vervolgonderzoek is het aan te raden het aantal groepen uit te breiden, meer controles en meer patiënten met RA, zodat de betrouwbaarheid van het onderzoek toeneemt. Daarnaast kan het ook waardevol zijn om te kijken naar het verschil tussen man en vrouw en hoe de genen zich zouden reguleren bij een patiënt die korter als 12 maanden gediagnosticeerd is met RA. Voor een vervolgonderzoek zou dit tot nieuwe inzichten leiden. 
 
 
 
