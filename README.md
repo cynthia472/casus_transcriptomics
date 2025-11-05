@@ -42,14 +42,12 @@ De differentiële genexpressieanalyse uitgevoerd met DESeq1 gaf een dataset met 
 
 De KEGG patway-analyse toont de betrokken genen binnen het Reumatoide artritis pathway. Kleuren geven de mate van expressieverandering weer: rood de opregulatie en groen de downregulatie. Binnen dit pathway vallen vooral de genen IL6, IL1B, TNF, RANKL, MMP9, IFNG, CD28, CD80 en CTLA4 op als sterk opgereguleerd en genen als TGFβ, IL4, IL23 zijn neerwaarts gereguleerd. 
 
-![
-<img width="1398" height="754" alt="image" src="https://github.com/user-attachments/assets/94941877-3c32-46af-b03a-19d19366bb88" />
-figuur 2:
+![Figuur 3: KEGG-pathwayanalyse van differentieel tot expressie gebrachte genen Reumatoide artritis (RA)](https://github.com/cynthia472/casus_transcriptomics/blob/main/resultaten/pathview%20plot.png?raw=true) *Figuur 3: KEGG-pathwayanalyse van differentieel tot expressie gebrachte genen Reumatoide artritis (RA)*
 
 
 De GO verrijkingsanalyse liet zien dat genen die differentieel tot expressie komen significant betrokken zijn bij de biologische processen die verband houden met het immuunsysteem. De top Go-termen (p-waarde < 0.05). 
 
-<img width="588" height="600" alt="image" src="https://github.com/user-attachments/assets/0778faef-f968-4d06-9221-666a056309bb" />
+![Figuur 4: 
 
 figuur 3:   
 
