@@ -38,16 +38,11 @@ Analyse die is uitgevoerd op synoviumbiopten van patiënten met reumatoïde artr
 
 De differentiële genexpressieanalyse uitgevoerd met DESeq1 gaf een dataset met 29.407 geanalyseerde genen met een aangepaste p-waarde <0.05 en een log2 fold change groter dan 1 hadden. De ![Volcano plot](./resultaten/volcano_plot.png) laat zien welke genen significant op en neerwaarts gereguleerd zijn. De genen in rood weergegeven zijn zowel statistisch als biologische significant. Enkele opvallende opgereguleerde genen zijn ANKRD30BL, BCL2A1, COL6A5, CXCR1, IGKV1-39, PTGFR.
 
-<img width="1443" height="729" alt="image" src="https://github.com/user-attachments/assets/1ba9bfe5-aaf5-4bbd-aeeb-292d31626053" />
-*Figuur 2: Volcano plot van differentiële genexpressie tussen RA-patiënten en gezonde controles. De plot toont de log₂-fold change (horizontale as) tegenover de –log₁₀(p-waarde) (verticale as) van 29.407 genen. Rode punten geven genen weer die zowel significant zijn (p < 0,05) als een sterke expressieverandering vertonen (|log₂FC| > 1). Groene punten zijn genen met een significante expressieverandering, en grijze punten zijn niet significant.*
-<br><br>
-
-
-![Figuur 2: Volcano plot van differentiële genexpressie tussen RA-patiënten en gezonde controles. De plot toont de log₂-fold change (horizontale as) tegenover de –log₁₀(p-waarde) (verticale as) van 29.407 genen. Rode punten geven genen weer die zowel significant zijn (p < 0,05) als een sterke expressieverandering vertonen (|log₂FC| > 1). Groene punten zijn genen met een significante expressieverandering, en grijze punten zijn niet significant.](
+![Figuur 2: Volcano plot van differentiële genexpressie tussen RA-patiënten en gezonde controles. De plot toont de log₂-fold change (horizontale as) tegenover de –log₁₀(p-waarde) (verticale as) van 29.407 genen. Rode punten geven genen weer die zowel significant zijn (p < 0,05) als een sterke expressieverandering vertonen (|log₂FC| > 1). Groene punten zijn genen met een significante expressieverandering, en grijze punten zijn niet significant.](https://github.com/cynthia472/casus_transcriptomics/blob/main/resultaten/volcano%20plot.png) *Figuur 2: Volcano plot van differentiële genexpressie tussen RA-patiënten en gezonde controles. De plot toont de log₂-fold change (horizontale as) tegenover de –log₁₀(p-waarde) (verticale as) van 29.407 genen. Rode punten geven genen weer die zowel significant zijn (p < 0,05) als een sterke expressieverandering vertonen (|log₂FC| > 1). Groene punten zijn genen met een significante expressieverandering, en grijze punten zijn niet significant.*
 
 De KEGG patway-analyse toont de betrokken genen binnen het Reumatoide artritis pathway. Kleuren geven de mate van expressieverandering weer: rood de opregulatie en groen de downregulatie. Binnen dit pathway vallen vooral de genen IL6, IL1B, TNF, RANKL, MMP9, IFNG, CD28, CD80 en CTLA4 op als sterk opgereguleerd en genen als TGFβ, IL4, IL23 zijn neerwaarts gereguleerd. 
 
-
+![
 <img width="1398" height="754" alt="image" src="https://github.com/user-attachments/assets/94941877-3c32-46af-b03a-19d19366bb88" />
 figuur 2:
 
