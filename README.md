@@ -34,22 +34,25 @@ Ten slotte werd functionele verrijking uitgevoerd met clusterProfiler (v4.8), ge
 figuur 1: Flowchart van het verwerken van de data in R
 
 # Resultaten
-Een analyse die is uitgevoerd op synoviumbiopten van patiënten met reumatoïde artritis (RA) en gezonde controlepersonen. Er is gekeken naar de differentiële genexpressie, KEGG-patwayanalyse en de GO-termverrijking. 
-De volcano plot weergegeven in figuur 2 laat zien welke genen significant andere tot expressie kwamen bij RA. Hierbij zijn de genen zowel statistisch als biologisch relevant zijn weergegeven in het rood. Genen met een hoge expressie zijn ANKRD30BL, BCL2A1, COL6A5, CXCR1, IGKV1-39, PTGFR. Er werden in totoaal 29.407 genen geanaylseerd, waarvan een groot deel differentieel tot expressie is gebracht.
+Analyse die is uitgevoerd op synoviumbiopten van patiënten met reumatoïde artritis (RA) en gezonde controlepersonen. Het doel van deze analyses was om verschillen in genexpressie tussen beide groepen te identificeren en te onderzoeken welke biologische processen en pathways hierbij betrokken zijn. Er is gekeken naar de differentiële genexpressie, KEGG-patwayanalyse en de GO-termverrijking. De bijbehorende figuren en tabellen zijn opgenomen in de map [resultaten/](./resultaten/) van deze GitHub-repository.
+
+De differentiële genexpressieanalyse uitgevoerd met DESeq1 gaf een dataset met 29.407 geanalyseerde genen met een aangepaste p-waarde <0.05 en een log2 fold change groter dan 1 hadden. De ![Volcano plot](./resultaten/volcano_plot.png) laat zien welke genen significant op en neerwaarts gereguleerd zijn. De genen in rood weergegeven zijn zowel statistisch als biologische significant. Enkele opvallende opgereguleerde genen zijn ANKRD30BL, BCL2A1, COL6A5, CXCR1, IGKV1-39, PTGFR.
 
 <img width="1443" height="729" alt="image" src="https://github.com/user-attachments/assets/1ba9bfe5-aaf5-4bbd-aeeb-292d31626053" />
-Figuur 2: 
+*Figuur 2: Volcano plot van differentiële genexpressie tussen RA-patiënten en gezonde controles. De plot toont de log₂-fold change (horizontale as) tegenover de –log₁₀(p-waarde) (verticale as) van 29.407 genen. Rode punten geven genen weer die zowel significant zijn (p < 0,05) als een sterke expressieverandering vertonen (|log₂FC| > 1). Groene punten zijn genen met een significante expressieverandering, en grijze punten zijn niet significant.*
+<br><br>
 
-![Volcano plot(./resultaten.volcano plot.png)
-![Volcano plot](./resultaten/volcano_plot.png)
 
-De pathway analyse toont de betrokken genen binnen het RA-pathway. De kleuren geven de mate van de expressieverandering weer. rood is de opregulatie en groen de downregulatie. De opvallende genen binnen dit pathway zijn Opgereguleerd: IL6, IL1B, TNF, RANKL, MMP9, IFNG, CD28, CD80, CTLA4 en neerwaarts gereguleerd: TGFβ, IL4, IL23.
+![Figuur 2: Volcano plot van differentiële genexpressie tussen RA-patiënten en gezonde controles. De plot toont de log₂-fold change (horizontale as) tegenover de –log₁₀(p-waarde) (verticale as) van 29.407 genen. Rode punten geven genen weer die zowel significant zijn (p < 0,05) als een sterke expressieverandering vertonen (|log₂FC| > 1). Groene punten zijn genen met een significante expressieverandering, en grijze punten zijn niet significant.](
+
+De KEGG patway-analyse toont de betrokken genen binnen het Reumatoide artritis pathway. Kleuren geven de mate van expressieverandering weer: rood de opregulatie en groen de downregulatie. Binnen dit pathway vallen vooral de genen IL6, IL1B, TNF, RANKL, MMP9, IFNG, CD28, CD80 en CTLA4 op als sterk opgereguleerd en genen als TGFβ, IL4, IL23 zijn neerwaarts gereguleerd. 
+
 
 <img width="1398" height="754" alt="image" src="https://github.com/user-attachments/assets/94941877-3c32-46af-b03a-19d19366bb88" />
 figuur 2:
 
 
-De GO verrijkingsanalyse toont aan de genen die differentieel tot expressie komen significant betrokken zijn bij de biologische processien die verband houden met het immuunsysteem. De top Go-termen (FDR < 0.05). 
+De GO verrijkingsanalyse liet zien dat genen die differentieel tot expressie komen significant betrokken zijn bij de biologische processen die verband houden met het immuunsysteem. De top Go-termen (p-waarde < 0.05). 
 
 <img width="588" height="600" alt="image" src="https://github.com/user-attachments/assets/0778faef-f968-4d06-9221-666a056309bb" />
 
