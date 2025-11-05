@@ -47,9 +47,9 @@ De KEGG patway-analyse toont de betrokken genen binnen het Reumatoide artritis p
 
 De GO verrijkingsanalyse liet zien dat genen die differentieel tot expressie komen significant betrokken zijn bij de biologische processen die verband houden met het immuunsysteem. De top Go-termen (p-waarde < 0.05). 
 
-![Figuur 4: 
+![Figuur 4: GO-verrijkingsanalyse van differentieel tot expressie gebrachte genen in reumatoïde artritis (RA)](https://github.com/cynthia472/casus_transcriptomics/blob/main/resultaten/GO-verrijkingsanalyse.png)
 
-figuur 3:   
+*Figuur 4: GO-verrijkingsanalyse van differentieel tot expressie gebrachte genen in reumatoïde artritis (RA)*
 
 
 # conclusie
